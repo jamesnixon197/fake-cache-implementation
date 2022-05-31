@@ -1,0 +1,29 @@
+{
+  "name": "fake-cache-implementation",
+  "version": "1.0.0",
+  "description": "Implementation of a fake cache",
+  "main": "index.js",
+  "repository": "git@github.com:jamesnixon197/fake-cache-implementation.git",
+  "author": "James Nixon <james.nixon@truepill.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "lint": "eslint --ext ts ./src",
+    "test": "jest src"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  }
+}
