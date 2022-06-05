@@ -18,5 +18,8 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
+  rules: {
+    "import/no-unresolved": 0,
+  },
   plugins: ["@typescript-eslint", "import", "prettier"],
 };
