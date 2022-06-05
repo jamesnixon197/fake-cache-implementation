@@ -5,9 +5,8 @@
   "repository": "git@github.com:jamesnixon197/fake-cache-implementation.git",
   "author": "James Nixon <james.nixon@truepill.com>",
   "license": "MIT",
-  "main": "dist/index.js",
   "scripts": {
-    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint --ext ts ./src",
     "test": "jest src"
   },
